@@ -1,0 +1,48 @@
+<div class="col-sm-2">
+
+<div class="sidebar-module about">
+  <img title="Me!" src="http://www.cs.cmu.edu/~mg1/images/matt_small.jpg" alt="Me!"/>
+  <br />
+  <a href="http://plus.google.com/+MattGardner">Google+</a> |
+  <a href="https://github.com/matt-gardner">Github</a> |
+  <a href="http://scholar.google.com/citations?user=SfKdzrUAAAAJ">Google Scholar</a> |
+  <a href="http://cs.cmu.edu/~mg1">CMU Homepage</a>
+</div>
+
+<div class="sidebar-module">
+  <h4>Recent Posts</h4>
+  {% for post in site.posts limit:5 %}
+  <li>
+  <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</div>
+
+<div class="sidebar-module">
+  <h4><a href="{{ site.baseurl }}/tags">Tags</a></h4>
+  {% for tag in site.tags %}
+  <li>
+    <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }} ({{ tag[1].size }})</a> &nbsp;
+  </li>
+  {% endfor %}
+</div>
+
+<div class="sidebar-module">
+  <h4><a href="{{ site.baseurl }}/archives">Archives</a></h4>
+  {% for post in site.posts %}
+  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+  {% unless year == this_year %}
+  {% assign year = this_year %}
+  {% unless post == site.posts.first %}
+  {% endunless %}
+  <li id="{{ year }}" > <a href="{{ site.baseurl }}/archives/#{{year}}">{{ year }}</a></li>
+  {% endunless %}
+  {% endfor %}
+</div>
+
+<div class="sidebar-module">
+<h4><a href="feed.xml">Subscribe</a></h4>
+</div>
+
+</div>
+

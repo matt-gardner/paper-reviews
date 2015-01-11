@@ -1,1 +1,13 @@
-My Page
+---
+layout: default
+---
+
+<div class="home">
+  <div class="post">
+
+    {% for post in paginator.posts %}
+    {% include post.html post=post content=post.content %}
+    {% endfor %}
+
+  </div>
+</div>
