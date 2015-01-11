@@ -7,6 +7,7 @@ tags:
 - Linguistics
 ---
 
+[Link to paper](http://www.aclweb.org/anthology/J95-2003)
 This is the seminal paper on a linguistic theory called centering, which deals with "relationships
 among focus of attention, choice of referring expression, and perceived coherence of utterances
 within a discourse segment."  In other words, this theory will tell you why "John has been acting

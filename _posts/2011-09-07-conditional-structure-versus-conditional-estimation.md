@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Klein and Manning: Conditional structure versus conditional estimation in NLP models; EMNLP 2002."
+title: "Conditional structure versus conditional estimation in NLP models; Klein and Manning, EMNLP 2002."
 layout: post
 author: Matt
 tags:
