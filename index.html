@@ -6,7 +6,8 @@ layout: default
   <div class="post">
 
     {% for post in paginator.posts %}
-    {% include post.html post=post content=post.content %}
+    {% capture post_content %}{{ post.excerpt }}<br/><a href="{{ site.baseurl }}{{ post.url }}">Read more...</a>{% endcapture %}
+    {% include post.html post=post content=post_content %}
     {% endfor %}
 
   </div>
