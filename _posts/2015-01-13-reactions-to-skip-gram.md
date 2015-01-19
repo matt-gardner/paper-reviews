@@ -67,7 +67,10 @@ Two small notes on this last paper.  First, I think this explains why Levy and G
 switch to a multiplication of their similarities in order to get reasonable performance on the
 analogy task - they were using PPMI to construct their word vectors, a metric that is a simple
 transformation of co-occurrence statistics, not _log_ co-occurrence statistics, so they needed
-multiplication instead of addition to recover the relationships.  Second, Goldberg [wrote a
+multiplication instead of addition to recover the relationships (UPDATE: actually, PPMI _does_ have
+a log after computing a ratio of counts, so I'm wrong here...  The connection does still seem
+interesting to me, but it would need some more exploration in order to really explain this).
+Second, Goldberg [wrote a
 note](https://docs.google.com/document/d/1ydIujJ7ETSZ688RGfU5IMJJsbxAi-kRl8czSwpti15s/) on the
 original (pre-camera-ready copy, I believe) version of the GloVe paper, criticizing its evaluation
 (fairly, I think).  The paper was updated in the camera-ready copy to respond to his points, but
