@@ -40,7 +40,7 @@ execution model.
 
 Semantic parsers typically map language onto statements that are directly executable against some
 fixed schema, such as Freebase.  For example, "Where was Obama born?" might get mapped to something
-like \\(\lambda(x).\mathrm{/people/person/born\_in}(\mathrm{Obama}, x)\\), which you could execute
+like \\(\lambda(x).\mathrm{/people/person/born\\_in}(\mathrm{Obama}, x)\\), which you could execute
 as a query against Freebase to return Honolulu.
 
 These execution models don't have to be restricted to database queries, however.  You can also map

@@ -15,8 +15,8 @@ ShowContactInfo: "True"
 default_column: "two"
 
 ### Build settings
-highlighter: pygments
+highlighter: rouge
 paginate: 5
-markdown: redcarpet
 kramdown:
   input: GFM  # this was to fix a parsing error, I think with code blocks
+gems: [jekyll-paginate]
