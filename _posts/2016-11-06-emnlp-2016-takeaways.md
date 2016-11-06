@@ -140,7 +140,7 @@ computer](http://www.nature.com/nature/journal/v538/n7626/full/nature20101.html)
 wonder if you could get this kind of general framework to perform similarly to the specific model
 that Chloe used.
 
-### Some papers and notes that are relevant for [Semantic Scholar](semanticscholar.org):
+### Some papers and notes that are relevant for [Semantic Scholar](http://www.semanticscholar.org):
 
 - I was able to find S2 links for most of the papers I mentioned here, but not for workshop papers,
   and not for papers that weren't already posted on arxiv, it seemed like.
