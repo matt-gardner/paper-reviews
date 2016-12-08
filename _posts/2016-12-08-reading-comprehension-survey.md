@@ -26,6 +26,7 @@ There's also a
 that has links to actual papers.
 
 Datasets I mentioned:
+
 - MCTest
 - bAbI
 - SNLI
@@ -43,6 +44,7 @@ Datasets I mentioned:
 - NewsQA
 
 Methods I (briefly) described:
+
 - Memory networks
 - Attentive Reader
 - Attention Sum Reader
