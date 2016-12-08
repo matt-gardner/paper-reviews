@@ -27,30 +27,30 @@ that has links to actual papers.
 
 Datasets I mentioned:
 
-- MCTest
-- bAbI
-- SNLI
-- LAMBADA
-- WikiReading
-- WikiSuggest
-- WikiMovies
-- MS MARCO
-- ROCStories
-- CNN / Daily Mail
-- Who Did What
-- Children's Book Test
-- BookTest
-- SQuAD
-- NewsQA
+* MCTest
+* bAbI
+* SNLI
+* LAMBADA
+* WikiReading
+* WikiSuggest
+* WikiMovies
+* MS MARCO
+* ROCStories
+* CNN / Daily Mail
+* Who Did What
+* Children's Book Test
+* BookTest
+* SQuAD
+* NewsQA
 
 Methods I (briefly) described:
 
-- Memory networks
-- Attentive Reader
-- Attention Sum Reader
-- Gated Attention Reader
-- Bi-directional attention flow
-- Bilinear annotation re-encoding boundary
+* Memory networks
+* Attentive Reader
+* Attention Sum Reader
+* Gated Attention Reader
+* Bi-directional attention flow
+* Bilinear annotation re-encoding boundary
 
 There are a _lot_ of methods I left out - there is a pretty clear story going from one of these to
 the next, so it was easy to give a brief outline of the progression of these models using these
